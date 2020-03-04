@@ -1,0 +1,75 @@
+/* CSS files add styling rules to your content */
+
+.calculator {
+  text-align: center;
+  padding-top: 100px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+}
+.calculator-keys1 {
+  padding-right: 4px;
+}
+.calculator-keys5 {
+  padding-right: 1px;
+}
+.output1 {
+  
+  box-shadow: 10px 20px #ffffff;
+  border-radius: 10px;
+  font-size: 20px;
+  font-style: italic;
+  font-style: bold;
+  width: 105px;
+  background-color: #deb555;
+}
+.equal-sign {
+  width: 105px;
+
+  
+}
+.equal-sign:hover {
+  background-color: #CD5C5C;
+}
+.output1:hover{
+  background-color: #CD5C5C;
+  
+}
+.operator ,.equal-sign{
+  background-color: #008080;
+  box-shadow: 10px 20px #ffffff;
+  border-radius: 10px;
+  font-size: 20px;
+  font-style: italic;
+  font-style: bold;
+  
+}
+.operator:hover {
+  background-color: #CD5C5C;
+}
+.number {
+  background-color: #808000;
+  box-shadow: 10px 20px #ffffff;
+  border-radius: 10px;
+  font-size: 20px;
+  font-style: italic;
+  font-style: bold;
+}
+.number:hover {
+  background-color: #CD5C5C;
+}
+
+.calculator-screen {
+  width: 198px;
+  margin-: 20px;
+  text-align: right;
+  background-color: black;
+  font-size: 30px;
+  color: white;
+  padding: 5px
+
+}
